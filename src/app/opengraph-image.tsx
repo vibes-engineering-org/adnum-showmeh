@@ -3,6 +3,7 @@ import {
   PROJECT_TITLE,
   PROJECT_DESCRIPTION,
   PROJECT_AVATAR_URL,
+  PROJECT_CREATOR,
 } from "~/lib/constants";
 
 export const alt = PROJECT_TITLE;
