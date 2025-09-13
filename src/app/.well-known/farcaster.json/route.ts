@@ -6,14 +6,7 @@ export async function GET() {
     `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
 
   const config = {
-    accountAssociation: {
-      header:
-        "eyJmaWQiOjEzNTk2LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4ODE3MzE4RDZmRkY2NkExOGQ4M0ExMzc2QTc2RjZlMzBCNDNjODg4OSJ9",
-      payload:
-        "eyJkb21haW4iOiJmYXJjYXN0ZXItbWluaWFwcC10ZW1wbGF0ZS52ZXJjZWwuYXBwIn0",
-      signature:
-        "MHg5ZjkyZTdkNjRmZTNhNTE4YTEzOTBmZTdlYzAwOWQzODUzZWM2N2RmOTZiYjg1MzAwOGRlZDExNjVmOGE5OGVlNDQyYmI0MDU3OTI0ZmEzOGE3N2NlYWRiYThiMTRiN2IzMTY5N2ZjYWVlZGM3MTE1YWNiMTFmYjc2Y2EzYTc0YzFj",
-    },
+    accountAssociation: "{\"accountAssociation\":{\"header\":\"eyJmaWQiOjIwMDM3NSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweENEZDlEMDZlMjQyRjUyOTA4NTg5YjJkMjU2MTQzMjllMTU0MTY2RTUifQ\",\"payload\":\"eyJkb21haW4iOiJhZG51bS1zaG93bWVoLnZlcmNlbC5hcHAifQ\",\"signature\":\"63EGtUldRWBJld+qCOPQAIz3y6Ex9ZBCK+kBJ6Hz+okwCpxY3OfBCGtPlIHBMx3+yVK4z+WkGuKA/wNnfWXQ+Rs=\"},\"miniapp\":{\"version\":\"1\",\"name\":\"showmeh\",\"iconUrl\":\"https://adnum-showmeh.vercel.app/icon.png\",\"homeUrl\":\"https://adnum-showmeh.vercel.app\"}}",
     miniapp: {
       version: "1",
       name: PROJECT_TITLE,
